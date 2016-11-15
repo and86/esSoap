@@ -14,7 +14,7 @@ public class prova {
 			
 			Calcolatrice c=locator.getCalcolatrice();
 			
-			int res=c.add(4, 8);
+			int res=c.add(10, 8);
 			System.out.println(res);
 		
 		} catch(ServiceException e){
